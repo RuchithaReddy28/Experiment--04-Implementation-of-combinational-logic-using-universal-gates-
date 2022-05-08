@@ -49,7 +49,7 @@ assign F = (~P&~Q&~R);
 endmodule
 ```
 
-## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
+## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate:
 ```
 module norcombination(A,B,C,D,F);
 input A,B,C,D;
@@ -64,22 +64,25 @@ endmodule
 ```
 
 ## Output:
-## F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate
+## F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate:
+## Truthtable:
+![output](https://github.com/RuchithaReddy28/Experiment--04-Implementation-of-combinational-logic-using-universal-gates-/blob/main/output%201.PNG?raw=true)
 
-## Truthtable
+##  RTL realization:
+![output](https://github.com/RuchithaReddy28/Experiment--04-Implementation-of-combinational-logic-using-universal-gates-/blob/main/output%202.PNG?raw=true)
 
+## Timing diagram :
+![output](https://github.com/RuchithaReddy28/Experiment--04-Implementation-of-combinational-logic-using-universal-gates-/blob/main/output%203.PNG?raw=true)
 
+## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate:
+## Truthtable:
+![output](https://github.com/RuchithaReddy28/Experiment--04-Implementation-of-combinational-logic-using-universal-gates-/blob/main/output%204.PNG?raw=true)
 
-##  RTL realization
+##  RTL realization:
+![output](https://github.com/RuchithaReddy28/Experiment--04-Implementation-of-combinational-logic-using-universal-gates-/blob/main/output%205.PNG?raw=true)
 
+## Timing diagram:
+![output](https://github.com/RuchithaReddy28/Experiment--04-Implementation-of-combinational-logic-using-universal-gates-/blob/main/output%206.PNG?raw=true)
 
-## Timing diagram 
-
-## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
-
-## Truthtable
-##  RTL realization
-
-## Timing diagram 
 ## Result:
 Thus implementation of logic functions using NAND and NOR gates is done and its operation is verified in Quartus using Verilog programming.
